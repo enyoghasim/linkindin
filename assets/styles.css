@@ -1,0 +1,63 @@
+*{
+    /* deletes all universal stylings */
+    margin  :  0;
+    padding :  0;
+}
+
+/* styles fornavbar */
+
+
+/* style for login page signup*/
+ #login {
+  
+    background : url('3.jpg') no-repeat;
+    background-size:cover;
+    height:100vh;
+    width: 100vw;
+}
+
+.loginbox{
+    
+    top:50vh;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  
+  
+}
+
+.loginbox h1{
+    color:white;
+    
+}
+.loginbox .textbox input[type=text],.loginbox .textbox input[type=password]{
+    outline:none;
+    border-radius: 5px;
+    background:transparent;
+    border:0.3px solid dodgerblue;
+    padding:10px 10px;
+    margin-bottom: 20px;
+    text-align:center;
+   color:white;
+}
+
+.loginbox  button{
+    border-radius:5px;
+    padding:10px 10px;
+    background:transparent;
+ 
+    border:2px solid crimson;
+    cursor: pointer;
+    outline:none;
+    transition: 0.4s;
+    color:crimson;
+}
+
+
+
+.loginbox  button:hover{
+    color:white;
+    background:crimson;
+}
+
+
